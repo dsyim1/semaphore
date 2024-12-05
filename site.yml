@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Print OS info
+      debug:
+        msg: "Semaphore Test"
+        
